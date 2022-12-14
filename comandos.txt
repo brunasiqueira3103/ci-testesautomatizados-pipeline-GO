@@ -22,11 +22,11 @@ meuip:8080
 ============================================
 2 Testes Automatizados 
 
->
+> adicionar os arquivos da branch: aula_05
+https://github.com/alura-cursos/Curso_CI.git
 
-
->
-
+>Iniciar o testes
+go test -v main_test.go 
 
 >
 
