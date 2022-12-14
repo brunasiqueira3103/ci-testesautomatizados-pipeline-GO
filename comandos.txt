@@ -1,0 +1,32 @@
+-Para executar a aplicação, é necessário o Docker e o Go, 
+sendo o Docker para o nosso banco de dados e o Go para gerir a aplicação;
+
+-Subir o banco de dados da aplicação através do docker compose, e automatizar 
+assim parte da tarefa, ao invés de ter que lembrar e executar o comando padrão do Docker;
+
+-Corrigir um problema que se encontrava no docker compose, que estava com complicações nos volumes, 
+onde os arquivos são armazenados, permitindo assim que o banco de dados possa ser executado;
+
+-Executar os testes automatizados, de forma manual, o que permite verificar a lógica da aplicação.
+
+>Copiar a aplicação, utilizando o git
+git clone https://github.com/alura-cursos/api_rest_gin_go_2-validacoes-e-testes
+
+> Subir o banco de dados, usando o docker compose
+docker-compose up -d
+
+> Iniciar a aplicação, com o Go
+go run main.go
+meuip:8080 
+
+============================================
+2 Testes Automatizados 
+
+>
+
+
+>
+
+
+>
+
